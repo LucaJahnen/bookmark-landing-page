@@ -65,10 +65,10 @@ summarys.forEach((summary) => {
 // form handling
 const form = document.querySelector(".email-form")
 const errorMsg = document.querySelector(".error-msg")
-const email = document.querySelector("[name=email]")
+const email = document.querySelector("[type=email]")
 
 const validateEmail = email => {
-    return email.match( /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)
+    return email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)
 }
 
 const displayErrorMsg = visible => {
@@ -91,5 +91,3 @@ form.addEventListener("submit", e => {
 email.addEventListener("keydown", () => {
     displayErrorMsg(false)
 })
-
-// input und button auf desktop gleiche höhe machen, css button class ersetzen

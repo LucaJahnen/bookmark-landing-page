@@ -392,6 +392,10 @@ p {
             z-index: 999;
         }
 
+        input:focus {
+            outline: 1px solid black;
+        }
+
         p {
             position: absolute;
             background-color: hsl(0, 94%, 66%);
