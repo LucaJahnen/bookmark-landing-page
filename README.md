@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/LucaJahnen/bookmark-landing-page](https://github.com/LucaJahnen/bookmark-landing-page)
-- Live URL: https://bookmark-landing-page354.netlify.app
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-bookmark-landing-page-7ZiTV-xjjN](https://www.frontendmentor.io/solutions/responsive-bookmark-landing-page-7ZiTV-xjjN)
+- Live URL: [https://bookmark-landing-page354.netlify.app](https://bookmark-landing-page354.netlify.app)
 
 ## My process
 
